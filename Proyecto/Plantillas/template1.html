@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVT NORWYS LEON</title>
+</head>
+<body>
+    <h1>FAMILIARES:</h1>
+
+        <h3>Lista de familiares</h3>
+        {% for familiar in familiares %}
+        <p> Nombre = {{ familiar.nombre }} </p>
+        <p> Apellido = {{ familiar.apellido}} </p>
+        <p> Edad = {{ familiar.edad }}</p>
+        <p> Fecha = {{ familiar.fecha }}</p>
+        <p>                  <p>
+        {% endfor %}
+
+</body>
+</html>
+
+
+
